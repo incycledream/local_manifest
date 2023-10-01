@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com" />
+	<!-- trees -->
+	<project path="device/xiaomi/miatoll" name="ProjectElixir-Devices/device_xiaomi_miatoll" remote="github" revision="tiramisu" />
+	<project path="device/xiaomi/sm6250-common" name="ProjectElixir-Devices/device_xiaomi-sm6250-common" remote="github" revision="tiramisu" />
+	<project path="vendor/xiaomi/miatoll" name="ProjectElixir-Devices/vendor_xiaomi_miatoll" remote="github" revision="tiramisu" />
+	<project path="vendor/xiaomi/sm6250-common" name="ProjectElixir-Devices/vendor_xiaomi_sm6250-common" remote="github" revision="tiramisu" />
+	<project path="kernel/xiaomi/miatoll" name="clarencelol/kernel_xiaomi_sm6250" remote="github" revision="melon" />
+
+	<!-- MIUI Camera  -->
+  <project path="vendor/xiaomi/miuicamera" name="SonalSingh18/vendor_xiaomi_miuicamera" remote="github" revision="master" />
+
+	<!-- HW -->
+	<project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-13.0" />
+
+	<!-- clang -->
+	<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
+</manifest>
