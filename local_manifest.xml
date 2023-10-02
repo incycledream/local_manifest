@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="github" fetch="https://github.com" />
+	<remote name="gitlab" fetch="https://gitlab.com" />
 	<!-- trees -->
 	<project path="device/xiaomi/miatoll" name="incycledream/device_xiaomi_miatoll" remote="github" revision="tiramisu" />
 	<project path="device/xiaomi/sm6250-common" name="ProjectElixir-Devices/device_xiaomi-sm6250-common" remote="github" revision="tiramisu" />
@@ -18,5 +19,5 @@
 	<project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-20" />
 
 	<!-- clang -->
-	<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="incycledream/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="github" revision="main" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
 </manifest>
